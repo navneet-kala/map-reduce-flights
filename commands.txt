@@ -1,0 +1,50 @@
+Commands on EC2 Instance
+================================================================================================
+
+1) To start Hadoop
+---------------
+cd /usr/local/hadoop
+hadoop namenode -format
+./sbin/start-dfs.sh
+ps aux|grep java
+
+2) To unzip the 3 compressed files and change Permission
+-----------------------------------------------------
+bzip2 -d *.bz2
+chmod +x *.csv
+
+3) Create HDFS input and output directories
+-------------------------------------------
+hadoop fs -mkdir -p /home/ec2-user/myInputDir/
+hadoop fs -mkdir -p /home/ec2-user/myOutputDir
+
+
+4) To copy the 3 files to HDFS and checking 
+-------------------------------------------
+hadoop fs -put ~/Project/*.csv /home/ec2-user/myInputDir
+hadoop fs -ls /home/ec2-user/myInputDir/
+
+5) Executing the 3 MapReduce Jobs and getting time taken to run
+---------------------------------------------------------------
+
+Year 2006
+----------
+time mapred streaming -input ~/myInputDir/2006.csv  -output ~/myOutputDir  -mapper ~/Project/mapper_prob.py  -reducer ~/Project/reducer_prob.py
+time mapred streaming -input ~/myInputDir/2006.csv  -output ~/myOutputDir  -mapper ~/Project/mapper_taxi.py  -reducer ~/Project/reducer_taxi.py
+time mapred streaming -input ~/myInputDir/2006.csv  -output ~/myOutputDir  -mapper ~/Project/mapper_cancel.py  -reducer ~/Project/reducer_cancel.py
+
+Year 2006-2007
+--------------
+time mapred streaming -input ~/myInputDir/2006.csv  -input ~/myInputDir/2007.csv -output ~/myOutputDir  -mapper ~/Project/mapper_prob.py  -reducer ~/Project/reducer_prob.py
+time mapred streaming -input ~/myInputDir/2006.csv  -input ~/myInputDir/2007.csv -output ~/myOutputDir  -mapper ~/Project/mapper_taxi.py  -reducer ~/Project/reducer_taxi.py
+time mapred streaming -input ~/myInputDir/2006.csv  -input ~/myInputDir/2007.csv -output ~/myOutputDir  -mapper ~/Project/mapper_cancel.py  -reducer ~/Project/reducer_cancel.py
+
+Year 2006-2008
+--------------
+time mapred streaming -input ~/myInputDir/ -output ~/myOutputDir  -mapper ~/Project/mapper_prob.py  -reducer ~/Project/reducer_prob.py
+time mapred streaming -input ~/myInputDir/ -output ~/myOutputDir  -mapper ~/Project/mapper_taxi.py  -reducer ~/Project/reducer_taxi.py
+time mapred streaming -input ~/myInputDir/ -output ~/myOutputDir  -mapper ~/Project/mapper_cancel.py  -reducer ~/Project/reducer_cancel.py
+
+6) Checking the Output
+----------------------
+hadoop fs -cat /home/ec2-user/myOutputDir/part-00000

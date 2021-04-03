@@ -1,0 +1,470 @@
+YEAR 2006
+----------
+
+
+Probability to be on Schedule
+
+        File System Counters
+                FILE: Number of bytes read=116293768
+                FILE: Number of bytes written=292345758
+                FILE: Number of read operations=0
+                FILE: Number of large read operations=0
+                FILE: Number of write operations=0
+                HDFS: Number of bytes read=2690288640
+                HDFS: Number of bytes written=236
+                HDFS: Number of read operations=63
+                HDFS: Number of large read operations=0
+                HDFS: Number of write operations=8
+                HDFS: Number of bytes read erasure-coded=0
+        Map-Reduce Framework
+                Map input records=7141923
+                Map output records=7141922
+                Map output bytes=43327010
+                Map output materialized bytes=57610884
+                Input split bytes=535
+                Combine input records=0
+                Combine output records=0
+                Reduce input groups=20
+                Reduce shuffle bytes=57610884
+                Reduce input records=7141922
+                Reduce output records=8
+                Spilled Records=14283844
+                Shuffled Maps =5
+                Failed Shuffles=0
+                Merged Map outputs=5
+                GC time elapsed (ms)=296
+                Total committed heap usage (bytes)=976154624
+        Shuffle Errors
+                BAD_ID=0
+                CONNECTION=0
+                IO_ERROR=0
+                WRONG_LENGTH=0
+                WRONG_MAP=0
+                WRONG_REDUCE=0
+        File Input Format Counters
+                Bytes Read=672084480
+        File Output Format Counters
+                Bytes Written=236
+
+real    0m50.194s
+user    0m44.330s
+sys     0m3.155s
+
+
+
+
+
+
+Taxi Times
+
+        File System Counters
+                FILE: Number of bytes read=342828218
+                FILE: Number of bytes written=858549744
+                FILE: Number of read operations=0
+                FILE: Number of large read operations=0
+                FILE: Number of write operations=0
+                HDFS: Number of bytes read=2690288640
+                HDFS: Number of bytes written=461
+                HDFS: Number of read operations=63
+                HDFS: Number of large read operations=0
+                HDFS: Number of write operations=8
+                HDFS: Number of bytes read erasure-coded=0
+        Map-Reduce Framework
+                Map input records=7141923
+                Map output records=14283844
+                Map output bytes=142310388
+                Map output materialized bytes=170878106
+                Input split bytes=535
+                Combine input records=0
+                Combine output records=0
+                Reduce input groups=585
+                Reduce shuffle bytes=170878106
+                Reduce input records=14283844
+                Reduce output records=17
+                Spilled Records=28567688
+                Shuffled Maps =5
+                Failed Shuffles=0
+                Merged Map outputs=5
+                GC time elapsed (ms)=409
+                Total committed heap usage (bytes)=1067425792
+        Shuffle Errors
+                BAD_ID=0
+                CONNECTION=0
+                IO_ERROR=0
+                WRONG_LENGTH=0
+                WRONG_MAP=0
+                WRONG_REDUCE=0
+        File Input Format Counters
+                Bytes Read=672084480
+        File Output Format Counters
+                Bytes Written=461
+real    1m24.275s
+user    1m14.895s
+sys     0m5.633s
+
+
+
+
+
+Cancellation Reason
+
+        File System Counters
+                FILE: Number of bytes read=72735148
+                FILE: Number of bytes written=183404100
+                FILE: Number of read operations=0
+                FILE: Number of large read operations=0
+                FILE: Number of write operations=0
+                HDFS: Number of bytes read=2690288640
+                HDFS: Number of bytes written=112
+                HDFS: Number of read operations=63
+                HDFS: Number of large read operations=0
+                HDFS: Number of write operations=8
+                HDFS: Number of bytes read erasure-coded=0
+        Map-Reduce Framework
+                Map input records=7141923
+                Map output records=7141922
+                Map output bytes=21547700
+                Map output materialized bytes=35831574
+                Input split bytes=535
+                Combine input records=0
+                Combine output records=0
+                Reduce input groups=5
+                Reduce shuffle bytes=35831574
+                Reduce input records=7141922
+                Reduce output records=5
+                Spilled Records=14283844
+                Shuffled Maps =5
+                Failed Shuffles=0
+                Merged Map outputs=5
+                GC time elapsed (ms)=285
+                Total committed heap usage (bytes)=958476288
+        Shuffle Errors
+                BAD_ID=0
+                CONNECTION=0
+                IO_ERROR=0
+                WRONG_LENGTH=0
+                WRONG_MAP=0
+                WRONG_REDUCE=0
+        File Input Format Counters
+                Bytes Read=672084480
+        File Output Format Counters
+                Bytes Written=112
+
+
+real    0m45.300s
+user    0m40.236s
+sys     0m2.992s
+
+
+YEARS 2006 - 2007
+
+
+Probability to be on Schedule
+
+
+        File System Counters
+                FILE: Number of bytes read=237697808
+                FILE: Number of bytes written=995308063
+                FILE: Number of read operations=0
+                FILE: Number of large read operations=0
+                FILE: Number of write operations=0
+                HDFS: Number of bytes read=10141920226
+                HDFS: Number of bytes written=235
+                HDFS: Number of read operations=219
+                HDFS: Number of large read operations=0
+                HDFS: Number of write operations=14
+                HDFS: Number of bytes read erasure-coded=0
+        Map-Reduce Framework
+                Map input records=14595139
+                Map output records=14595137
+                Map output bytes=88557416
+                Map output materialized bytes=117747756
+                Input split bytes=1177
+                Combine input records=0
+                Combine output records=0
+                Reduce input groups=21
+                Reduce shuffle bytes=117747756
+                Reduce input records=14595137
+                Reduce output records=8
+                Spilled Records=29190274
+                Shuffled Maps =11
+                Failed Shuffles=0
+                Merged Map outputs=11
+                GC time elapsed (ms)=559
+                Total committed heap usage (bytes)=1845641216
+        Shuffle Errors
+                BAD_ID=0
+                CONNECTION=0
+                IO_ERROR=0
+                WRONG_LENGTH=0
+                WRONG_MAP=0
+                WRONG_REDUCE=0
+        File Input Format Counters
+                Bytes Read=1374983153
+        File Output Format Counters
+                Bytes Written=235
+
+
+real    1m37.196s
+user    1m25.924s
+sys     0m6.148s
+
+
+
+
+
+Taxi Times
+
+        File System Counters
+                FILE: Number of bytes read=701019322
+                FILE: Number of bytes written=2936008625
+                FILE: Number of read operations=0
+                FILE: Number of large read operations=0
+                FILE: Number of write operations=0
+                HDFS: Number of bytes read=10141920226
+                HDFS: Number of bytes written=460
+                HDFS: Number of read operations=219
+                HDFS: Number of large read operations=0
+                HDFS: Number of write operations=14
+                HDFS: Number of bytes read erasure-coded=0
+        Map-Reduce Framework
+                Map input records=14595139
+                Map output records=29190274
+                Map output bytes=291027861
+                Map output materialized bytes=349408475
+                Input split bytes=1177
+                Combine input records=0
+                Combine output records=0
+                Reduce input groups=623
+                Reduce shuffle bytes=349408475
+                Reduce input records=29190274
+                Reduce output records=17
+                Spilled Records=58380548
+                Shuffled Maps =11
+                Failed Shuffles=0
+                Merged Map outputs=11
+                GC time elapsed (ms)=724
+                Total committed heap usage (bytes)=1926615040
+        Shuffle Errors
+                BAD_ID=0
+                CONNECTION=0
+                IO_ERROR=0
+                WRONG_LENGTH=0
+                WRONG_MAP=0
+                WRONG_REDUCE=0
+        File Input Format Counters
+                Bytes Read=1374983153
+        File Output Format Counters
+                Bytes Written=460
+
+real    2m46.083s
+user    2m26.385s
+sys     0m11.707s
+
+
+
+
+Cancellation Reason
+
+        File System Counters
+                FILE: Number of bytes read=148719164
+                FILE: Number of bytes written=622461460
+                FILE: Number of read operations=0
+                FILE: Number of large read operations=0
+                FILE: Number of write operations=0
+                HDFS: Number of bytes read=10141920226
+                HDFS: Number of bytes written=113
+                HDFS: Number of read operations=219
+                HDFS: Number of large read operations=0
+                HDFS: Number of write operations=14
+                HDFS: Number of bytes read erasure-coded=0
+        Map-Reduce Framework
+                Map input records=14595139
+                Map output records=14595137
+                Map output bytes=44068094
+                Map output materialized bytes=73258434
+                Input split bytes=1177
+                Combine input records=0
+                Combine output records=0
+                Reduce input groups=5
+                Reduce shuffle bytes=73258434
+                Reduce input records=14595137
+                Reduce output records=5
+                Spilled Records=29190274
+                Shuffled Maps =11
+                Failed Shuffles=0
+                Merged Map outputs=11
+                GC time elapsed (ms)=509
+                Total committed heap usage (bytes)=1823674368
+        Shuffle Errors
+                BAD_ID=0
+                CONNECTION=0
+                IO_ERROR=0
+                WRONG_LENGTH=0
+                WRONG_MAP=0
+                WRONG_REDUCE=0
+        File Input Format Counters
+                Bytes Read=1374983153
+        File Output Format Counters
+                Bytes Written=113
+
+real    1m25.230s
+user    1m14.599s
+sys     0m6.070s
+
+
+
+YEARS 2006 - 2008
+----------------------------
+
+Probability to be on Schedule
+
+        File System Counters
+                FILE: Number of bytes read=352658956
+                FILE: Number of bytes written=2084759430
+                FILE: Number of read operations=0
+                FILE: Number of large read operations=0
+                FILE: Number of write operations=0
+                HDFS: Number of bytes read=22296175507
+                HDFS: Number of bytes written=234
+                HDFS: Number of read operations=399
+                HDFS: Number of large read operations=0
+                HDFS: Number of write operations=20
+                HDFS: Number of bytes read erasure-coded=0
+        Map-Reduce Framework
+                Map input records=21604868
+                Map output records=21604865
+                Map output bytes=131400253
+                Map output materialized bytes=174610085
+                Input split bytes=1819
+                Combine input records=0
+                Combine output records=0
+                Reduce input groups=21
+                Reduce shuffle bytes=174610085
+                Reduce input records=21604865
+                Reduce output records=8
+                Spilled Records=43209730
+                Shuffled Maps =17
+                Failed Shuffles=0
+                Merged Map outputs=17
+                GC time elapsed (ms)=839
+                Total committed heap usage (bytes)=2833670144
+        Shuffle Errors
+                BAD_ID=0
+                CONNECTION=0
+                IO_ERROR=0
+                WRONG_LENGTH=0
+                WRONG_MAP=0
+                WRONG_REDUCE=0
+        File Input Format Counters
+                Bytes Read=2064416977
+        File Output Format Counters
+                Bytes Written=234
+
+real    2m15.192s
+user    1m59.856s
+sys     0m8.882s
+
+
+
+
+
+Taxi Times
+
+        File System Counters
+                FILE: Number of bytes read=1038640116
+                FILE: Number of bytes written=6157247914
+                FILE: Number of read operations=0
+                FILE: Number of large read operations=0
+                FILE: Number of write operations=0
+                HDFS: Number of bytes read=22296175507
+                HDFS: Number of bytes written=446
+                HDFS: Number of read operations=399
+                HDFS: Number of large read operations=0
+                HDFS: Number of write operations=20
+                HDFS: Number of bytes read erasure-coded=0
+        Map-Reduce Framework
+                Map input records=21604868
+                Map output records=43209730
+                Map output bytes=431181049
+                Map output materialized bytes=517600611
+                Input split bytes=1819
+                Combine input records=0
+                Combine output records=0
+                Reduce input groups=636
+                Reduce shuffle bytes=517600611
+                Reduce input records=43209730
+                Reduce output records=17
+                Spilled Records=86419460
+                Shuffled Maps =17
+                Failed Shuffles=0
+                Merged Map outputs=17
+                GC time elapsed (ms)=1041
+                Total committed heap usage (bytes)=2835603456
+        Shuffle Errors
+                BAD_ID=0
+                CONNECTION=0
+                IO_ERROR=0
+                WRONG_LENGTH=0
+                WRONG_MAP=0
+                WRONG_REDUCE=0
+        File Input Format Counters
+                Bytes Read=2064416977
+        File Output Format Counters
+                Bytes Written=446
+
+real    4m0.480s
+user    3m33.277s
+sys     0m17.326s
+
+
+
+
+
+Cancellation Reason
+
+        File System Counters
+                FILE: Number of bytes read=220327868
+                FILE: Number of bytes written=1300741092
+                FILE: Number of read operations=0
+                FILE: Number of large read operations=0
+                FILE: Number of write operations=0
+                HDFS: Number of bytes read=22296175507
+                HDFS: Number of bytes written=114
+                HDFS: Number of read operations=399
+                HDFS: Number of large read operations=0
+                HDFS: Number of write operations=20
+                HDFS: Number of bytes read erasure-coded=0
+        Map-Reduce Framework
+                Map input records=21604868
+                Map output records=21604865
+                Map output bytes=65234712
+                Map output materialized bytes=108444544
+                Input split bytes=1819
+                Combine input records=0
+                Combine output records=0
+                Reduce input groups=5
+                Reduce shuffle bytes=108444544
+                Reduce input records=21604865
+                Reduce output records=5
+                Spilled Records=43209730
+                Shuffled Maps =17
+                Failed Shuffles=0
+                Merged Map outputs=17
+                GC time elapsed (ms)=806
+                Total committed heap usage (bytes)=2828763136
+        Shuffle Errors
+                BAD_ID=0
+                CONNECTION=0
+                IO_ERROR=0
+                WRONG_LENGTH=0
+                WRONG_MAP=0
+                WRONG_REDUCE=0
+        File Input Format Counters
+                Bytes Read=2064416977
+        File Output Format Counters
+                Bytes Written=114
+
+real    2m2.102s
+user    1m47.586s
+sys     0m8.905s
